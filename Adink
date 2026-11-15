@@ -1,0 +1,37 @@
+# ProofGuard ID + MarketProof ID
+### Agent Games - zkVerify Season 01
+
+Dua agent yang bisa dibuktikan, bukan cuma dipercaya.
+
+**Wallet:** `0xcaB62C098748C9813f9abe71C24bFDa3772505F0`
+**Creator:** [@adink23](https://github.com/adink23)
+**Tournament:** [agentgames.zkverify.io](https://agentgames.zkverify.io/register?ref=H3MWL6YR)
+
+---
+
+## 1. ProofGuard ID - Gatekeeper Agent
+
+Agent gatekeeper untuk pembayaran yang bisa diverifikasi.
+
+Setiap tugas diperiksa secara deterministik:
+- Verification key harus cocok
+- Saldo >= minimum
+- Penerima sesuai kondisi
+- Jumlah dalam batas cap
+- Belum kedaluwarsa
+- Proof belum pernah dipakai
+
+Jika 1 saja gagal = REJECT. Tidak ada approve tanpa bukti.
+
+**Endpoint:** `POST /verify-task`
+
+**Contoh Request:**
+```json
+{
+  "proofRef": "proof-001",
+  "balance": 1460,
+  "recipient": "0xRecipientKamu",
+  "amount": 500,
+  "currentBlock": 1000,
+  "vkHash": "0x6b79c6d77b0"
+}
