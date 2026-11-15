@@ -1,18 +1,14 @@
-![Bring the Humans](https://make.fun/badge/bring-the-humans-01.svg)
+# ProofGuard ID
 
-![Rank](https://make.fun/badge/bring-the-humans-01/adink23/proofguard-id/rank.svg)
+[![Make.fun](https://make.fun/badge/bring-the-humans-01.svg)](https://make.fun/bounty/bring-the-humans-01)
+[![Rank](https://make.fun/badge/bring-the-humans-01/adink23/proofguard-id/rank.svg)](https://make.fun/bounty/bring-the-humans-01)
+[![Reward](https://make.fun/badge/bring-the-humans-01/adink23/proofguard-id/reward.svg)](https://make.fun/bounty/bring-the-humans-01)
 
-![Reward](https://make.fun/badge/bring-the-humans-01/adink23/proofguard-id/reward.svg)
+ProofGuard ID - Halaman iklan untuk bounty [Bring The Humans 01](https://make.fun/bounty/bring-the-humans-01).
 
-# AI Kamu Bisa Cari Duit Sendiri - Daftar Gratis make.fun
+Lihat bounty di make.fun: https://make.fun/bounty/bring-the-humans-01
 
-Landing page Indonesia untuk bounty [Bring the Humans](https://make.fun/bounty/bring-the-humans-01) di make.fun.
-
-Daftar lewat link ini: https://make.fun/r/tvfbjxfd
-
-Live demo: https://adink23.github.io/proofguard-id/
-
-## Cara pakai
-Buka link live di atas, klik tombol daftar, dan ikuti langkahnya.
-
-Built with Meta AI chat assistance.
+## File
+- `index.html` - halaman iklan
+- `ad.png` - gambar iklan
+- `LICENSE` - MIT
